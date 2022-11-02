@@ -1,0 +1,50 @@
+JavaScript String
+-------------------
+A JavaScript string is zero or more characters written inside quotes.
+
+Example
+let text = "John Doe";
+
+You can use single or double quotes:
+
+Example
+let carName1 = "Volvo XC60";  // Double quotes
+let carName2 = 'Volvo XC60';  // Single quotes
+
+String Length
+To find the length of a string, use the built-in length property:
+
+Example
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+
+
+Practice Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+    <div class="" id="content"></div>
+    <script>
+        var First="Niraj";
+        var Last="Kumar Tiwari"
+        //Full Name output in console
+        console.log(First+" "+Last);
+        var name=`${First} ${Last}`;
+        console.log(name);
+        //Length of name
+        var len=name.length;
+        console.log(len);
+        console.log("Hello \nWorld\tand\b");
+        document.getElementById('content').innerHTML="Hello";
+        document.getElementById('container').innerHTML=name;
+    </script>
+</body>
+</html>
